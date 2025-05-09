@@ -22,7 +22,7 @@ function App() {
     <input type = 'text' value = {text} onChange={onChange}></input>
     <button onClick={onClick}>저장</button>
     </div>
-    <p>input 입력값 : {text}</p>
+    {/* <p>input 입력값 : {text}</p> */}
     <div>
       <textarea value={content} onChange={(e)=>{
         console.log(e.target.value)
