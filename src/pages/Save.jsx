@@ -1,4 +1,4 @@
-function Archive() {
+function Save() {
   const saved = localStorage.getItem('myDiaryNotes');
   const notes = saved ? JSON.parse(saved) : [];
 
@@ -19,4 +19,5 @@ function Archive() {
   );
 }
 
-export default Archive;
+export default Save
+
